@@ -15,14 +15,6 @@ Python I will cover five main topics.
 
 We will also be studying built-in Python functions such as ```print``` and ```input```.
 
-<br/><br/>
-
-```{image} /images/python1topics.png
-:width: 400px
-:align: center
-```
-
-
 <br/><br/><br/><br/>
 
 ## Simple Objects
