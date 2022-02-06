@@ -13,6 +13,8 @@ Python I will cover five main topics.
 - *Function*
 
 
+We will also be studying built-in Python functions such as ```print``` and ```input```.
+
 <br/><br/>
 
 ```{image} /images/python1topics.png
@@ -43,14 +45,48 @@ By simple objects we mean Python's simple built-in types:
 
 ## Collections
 
+In the collections section we will study:
 
+- *lists*: lists are ordered collections. lists are mutable.
+- *tuples*:  tuples are ordered collections. tuples are immutable.
+- *sets*: sets are unique collection of objects. sets are mutable.
+- *dictionaries*: dictionaries are key value pairs.
 
 
 ## Iteration
 
 
+<br/><br/>
+
+```{image} /images/iteration.png
+:width: 600px
+:align: center
+```
+<br/><br/><br/><br/>
+
+
+
+
 ## Branching
 
 
+<br/><br/>
+
+```{image} /images/branching.png
+:width: 600px
+:align: center
+```
+<br/><br/><br/><br/>
+
+
 ## Functions
+
+<br/><br/>
+
+```{image} /images/functions.png
+:width: 600px
+:align: center
+```
+<br/><br/><br/><br/>
+
 
