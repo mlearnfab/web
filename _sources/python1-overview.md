@@ -62,7 +62,7 @@ Computers excel at repeating automated tasks. Iteration is the repeated executio
 
 ## Branching
 
-
+Most programming languages have branching: the ability to execute a different set of statements based on whether one or more conditions are true.
 <br/><br/>
 
 ```{image} /images/python1/branching.png
