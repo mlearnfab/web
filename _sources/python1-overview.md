@@ -15,7 +15,6 @@ Python I will cover five main topics.
 
 We will also be studying built-in Python functions such as ```print``` and ```input```.
 
-<br/><br/><br/><br/>
 
 ## Simple Objects
 
@@ -27,13 +26,12 @@ By simple objects we mean Python's simple built-in types:
 - *booleans*: the values True and False
 - *strings*: sequences of text characters
 
-<br/><br/>
 
-```{image} /images/simpleobjects.png
+```{image} /images/python1/simpleobjects.png
 :width: 600px
 :align: center
 ```
-<br/><br/><br/><br/>
+<br/><br/>
 
 ## Collections
 
@@ -45,26 +43,24 @@ In the collections section we will study:
 - *dictionaries*: dictionaries are key value pairs.
 
 
-## Iteration
-
-
-<br/><br/>
-
-```{image} /images/iteration.png
+```{image} /images/python1/collections.png
 :width: 600px
 :align: center
 ```
-<br/><br/><br/><br/>
 
+## Iteration
 
-
+```{image} /images/python1/iteration.png
+:width: 600px
+:align: center
+```
 
 ## Branching
 
 
 <br/><br/>
 
-```{image} /images/branching.png
+```{image} /images/python1/branching.png
 :width: 600px
 :align: center
 ```
@@ -75,10 +71,10 @@ In the collections section we will study:
 
 <br/><br/>
 
-```{image} /images/functions.png
+```{image} /images/python1/functions.png
 :width: 600px
 :align: center
 ```
-<br/><br/><br/><br/>
+
 
 
