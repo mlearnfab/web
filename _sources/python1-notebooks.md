@@ -1,6 +1,3 @@
 # Notebooks
 
-The following videos are available on YouTube:
-
-- [Python World Overview](https://youtu.be/C24Qhw2NNJ0)
-- [Environment](https://youtu.be/mZuun2ccNO0)
+Jupyter Notebooks for Level I will be available by Feb. 9th, 2022.

@@ -50,6 +50,11 @@ In the collections section we will study:
 
 ## Iteration
 
+Computers excel at repeating automated tasks. Iteration is the repeated execution of a set of tasks. Most computer languages have at least two types of loops:
+
+- **for-loops** are used when a block of code needs to be executed for a known number of repetitions
+- **while-loops** are suitable when the number of iterations is not known in advance, but depends on a condition
+
 ```{image} /images/python1/iteration.png
 :width: 600px
 :align: center
