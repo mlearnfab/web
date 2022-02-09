@@ -1,4 +1,4 @@
-# Level I Overview
+# Level I Curriculum
 
 This page describes the curriculum for Python Bootcamp for Machine Learning I (Python Level I). Python I is part of a series Python I - V. 
 
