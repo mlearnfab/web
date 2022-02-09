@@ -149,6 +149,16 @@
      Lists
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="collections.html">
+     Collections
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="functions.html">
+     Functions
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -431,7 +441,7 @@ We can perform various operations on the objects. The operations are shown in th
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># from our atoms let&#39;s create a list taking a sample of each simple object</span>
 
-<span class="n">NoahsArk</span> <span class="o">=</span> <span class="p">[</span><span class="mf">3.14159</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="o">-</span><span class="mi">15</span><span class="p">,</span> <span class="s1">&#39;So far beyond the causal solitudes&#39;</span><span class="p">]</span>
+<span class="n">NoahsArk</span> <span class="o">=</span> <span class="p">[</span><span class="mf">3.14159</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="o">-</span><span class="mi">15</span><span class="p">,</span> <span class="s1">&#39;So far beyond the casual solitudes&#39;</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -456,7 +466,7 @@ We can perform various operations on the objects. The operations are shown in th
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[3.14159, False, -15, &#39;So far beyond the causal solitudes&#39;]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[3.14159, False, -15, &#39;So far beyond the casual solitudes&#39;]
 </pre></div>
 </div>
 </div>
@@ -488,7 +498,7 @@ We can perform various operations on the objects. The operations are shown in th
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[3.14159, False, -15, &#39;So far beyond the causal solitudes&#39;, &#39;Re-statement of Romance&#39;]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[3.14159, False, -15, &#39;So far beyond the casual solitudes&#39;, &#39;Re-statement of Romance&#39;]
 </pre></div>
 </div>
 </div>
@@ -501,7 +511,7 @@ We can perform various operations on the objects. The operations are shown in th
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;So far beyond the causal solitudes&#39;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;So far beyond the casual solitudes&#39;
 </pre></div>
 </div>
 </div>
@@ -510,6 +520,7 @@ We can perform various operations on the objects. The operations are shown in th
 </div>
 <div class="tex2jax_ignore mathjax_ignore section" id="iteration">
 <h1>Iteration<a class="headerlink" href="#iteration" title="Permalink to this headline">¶</a></h1>
+<p>Iteration is the process of repeating a block of code multiple times.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># let&#39;s define a list containing colors</span>
@@ -538,6 +549,12 @@ Cattleya 8
 </div>
 <div class="tex2jax_ignore mathjax_ignore section" id="branching-conditions">
 <h1>Branching, Conditions<a class="headerlink" href="#branching-conditions" title="Permalink to this headline">¶</a></h1>
+<p>A program is a series of instructions. But a <strong>straight line</strong> series of instructions is very limiting. Branching allows us to deviate from straight line instructions. The simplest form of branching is a conditional. It’s structure has three parts:</p>
+<ul class="simple">
+<li><p>a test, an expression that evaluates to either <code class="docutils literal notranslate"><span class="pre">True</span></code> or <code class="docutils literal notranslate"><span class="pre">False</span></code></p></li>
+<li><p>a block of code that is executed if the evaluation is <code class="docutils literal notranslate"><span class="pre">True</span></code></p></li>
+<li><p>an optional block if the evaluation is <code class="docutils literal notranslate"><span class="pre">False</span></code></p></li>
+</ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Let&#39;s print the list NoahsAk</span>
@@ -549,7 +566,7 @@ Cattleya 8
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[3.14159,
  False,
  -15,
- &#39;So far beyond the causal solitudes&#39;,
+ &#39;So far beyond the casual solitudes&#39;,
  &#39;Re-statement of Romance&#39;]
 </pre></div>
 </div>
@@ -565,8 +582,32 @@ Cattleya 8
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3 So far beyond the causal solitudes
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3 So far beyond the casual solitudes
 4 Re-statement of Romance
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="o">-</span><span class="mi">233</span><span class="p">,</span> <span class="mf">33.3</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">x</span><span class="o">&lt;</span><span class="n">y</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2"> is less than </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">x</span><span class="o">&gt;</span><span class="n">y</span><span class="p">:</span> 
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2"> is greater than </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2"> is equal to </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>-233 is less than 33.3.
 </pre></div>
 </div>
 </div>
@@ -574,6 +615,7 @@ Cattleya 8
 </div>
 <div class="tex2jax_ignore mathjax_ignore section" id="functions">
 <h1>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h1>
+<p>Functions form the core of any programming language. What is a function in programming? It’s a block of code that performs a computation. But it is defined in a way that we call on the function as we need it. A function takes a set of inputs, performs a computation on the inputs, and produces an output.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># let&#39;s define a function for calculating tips</span>

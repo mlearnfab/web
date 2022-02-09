@@ -149,6 +149,16 @@
      Lists
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="collections.html">
+     Collections
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="functions.html">
+     Functions
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -250,24 +260,6 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#string-manipulation-including-slicing">
-   0.21 String Manipulation, including Slicing
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lists">
-   0.22 Lists
-  </a>
- </li>
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -280,24 +272,6 @@
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#string-manipulation-including-slicing">
-   0.21 String Manipulation, including Slicing
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lists">
-   0.22 Lists
-  </a>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -306,9 +280,6 @@
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="string">
 <h1>String<a class="headerlink" href="#string" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="string-manipulation-including-slicing">
-<h2>0.21 String Manipulation, including Slicing<a class="headerlink" href="#string-manipulation-including-slicing" title="Permalink to this headline">¶</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">string</span></code> object has structure.</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Here we list some basic string operations.
 </pre></div>
 </div>
@@ -374,6 +345,19 @@
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># negative index starts from the end</span>
+<span class="n">author</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;f&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># we can index backwards, the third item from the item. </span>
 <span class="c1"># why doesn&#39;t python use zeroth indexing when going backwards?</span>
 <span class="n">author</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span>
@@ -388,25 +372,13 @@
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">author</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;f&#39;
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># starting at -3 and go to -1; we are not going backwards, just using negative indices</span>
-<span class="n">author</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">author</span><span class="p">[</span><span class="o">-</span><span class="mi">4</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;ol&#39;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;ool&#39;
 </pre></div>
 </div>
 </div>
@@ -469,165 +441,28 @@
 </div>
 </div>
 </div>
-</div>
-<div class="section" id="lists">
-<h2>0.22 Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Lists are ordered collections. We create lists with square brackets, []</span>
-<span class="n">physicists</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Curie&quot;</span><span class="p">,</span><span class="s2">&quot;Gell Man&quot;</span><span class="p">,</span><span class="s2">&quot;Feynman&quot;</span><span class="p">,</span><span class="s2">&quot;Born&quot;</span><span class="p">,</span><span class="s2">&quot;Einstein&quot;</span><span class="p">]</span>
-<span class="n">mathematicians</span> <span class="o">=</span><span class="p">[]</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># list are indexed, just like strings</span>
-<span class="n">physicists</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">author</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Gell Man&#39;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Virginia Woolf&#39;
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># we can add to lists with append</span>
-<span class="n">mathematicians</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Gauss&#39;</span><span class="p">)</span>
-<span class="n">mathematicians</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># split method (function) returns a list of words</span>
+<span class="n">author</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Virginia&#39;, &#39;Woolf&#39;]
 </pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># we can replace an element of the list via the index</span>
-<span class="n">physicists</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Schwinger&quot;</span>
-<span class="n">physicists</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Curie&#39;, &#39;Gell Man&#39;, &#39;Schwinger&#39;, &#39;Born&#39;, &#39;Einstein&#39;]
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># we can add multiple values to a list with extend</span>
-<span class="n">mathematicians</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s1">&#39;Noether&#39;</span><span class="p">,</span><span class="s1">&#39;Fermat&#39;</span><span class="p">,</span><span class="s1">&#39;Tao&#39;</span><span class="p">])</span>
-<span class="n">mathematicians</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;, &#39;Noether&#39;, &#39;Fermat&#39;, &#39;Tao&#39;]
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># the same item can appear multiple times in a list</span>
-<span class="n">mathematicians</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Noether&#39;</span><span class="p">)</span>
-<span class="n">mathematicians</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;, &#39;Noether&#39;, &#39;Fermat&#39;, &#39;Tao&#39;, &#39;Noether&#39;]
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># you can have heterogeneous datatypes in lists</span>
-<span class="n">mathematicians</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span><span class="kc">True</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;Jabberwocky&#39;</span><span class="p">,</span><span class="s1">&#39;Nonsense&#39;</span><span class="p">]])</span>
-<span class="n">mathematicians</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;,
- &#39;Noether&#39;,
- &#39;Fermat&#39;,
- &#39;Tao&#39;,
- &#39;Noether&#39;,
- 5,
- True,
- [&#39;Jabberwocky&#39;, &#39;Nonsense&#39;]]
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># the last element in the list is another list</span>
-<span class="n">mathematicians</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Jabberwocky&#39;, &#39;Nonsense&#39;]
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># what is happening here?</span>
-<span class="n">mathematicians</span><span class="p">[</span><span class="mi">7</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Jabberwocky&#39;
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">del</span> <span class="n">mathematicians</span><span class="p">[</span><span class="mi">5</span><span class="p">:</span><span class="mi">8</span><span class="p">]</span>
-<span class="n">mathematicians</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;, &#39;Noether&#39;, &#39;Fermat&#39;, &#39;Tao&#39;, &#39;Noether&#39;]
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mathematicians</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s1">&#39;Ramanujan&#39;</span><span class="p">,</span><span class="s1">&#39;Lipshutz&#39;</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># slicing with lists</span>
-<span class="n">physicists</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Schwinger&#39;, &#39;Born&#39;]
-</pre></div>
-</div>
 </div>
 </div>
 </div>

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lists &#8212; Machine Learning for Absolute Beginners</title>
+    <title>Functions &#8212; Machine Learning for Absolute Beginners</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,8 +51,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Collections" href="collections.html" />
-    <link rel="prev" title="String" href="strings.html" />
+    <link rel="prev" title="Collections" href="collections.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -144,8 +143,8 @@
      String
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="lists.html">
      Lists
     </a>
    </li>
@@ -154,8 +153,8 @@
      Collections
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="functions.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Functions
     </a>
    </li>
@@ -202,7 +201,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/lists.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="_sources/functions.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -222,7 +221,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/mlearnfab/web/issues/new?title=Issue%20on%20page%20%2Flists.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/mlearnfab/web/issues/new?title=Issue%20on%20page%20%2Ffunctions.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -243,7 +242,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/mlearnfab/web/master?urlpath=tree/docs/lists.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/mlearnfab/web/master?urlpath=tree/docs/functions.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="_static/images/logo_binder.svg"
@@ -260,6 +259,41 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#definition">
+   Definition
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#examples">
+   Examples
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#simple-function">
+     Simple Function
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#function-with-one-argument-input">
+     Function with one argument (input)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#function-with-one-input-and-one-output">
+     Function with one input and one output
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -267,196 +301,237 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Lists</h1>
+                <h1>Functions</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#definition">
+   Definition
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#examples">
+   Examples
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#simple-function">
+     Simple Function
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#function-with-one-argument-input">
+     Function with one argument (input)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#function-with-one-input-and-one-output">
+     Function with one input and one output
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="lists">
-<h1>Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h1>
-<p>Lists are ordered collections. Lists are mutable. Lists can have heterogeneous data elements.</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="functions">
+<h1>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="definition">
+<h2>Definition<a class="headerlink" href="#definition" title="Permalink to this headline">¶</a></h2>
+<p>Functions are used to define blocks of reusable code. They are executed only when called. Functions can have inputs. The inputs are also called arguments or parameters. They can return outputs.</p>
+<p>In python functions are defined using the <strong>def</strong> keyword.</p>
+</div>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="simple-function">
+<h3>Simple Function<a class="headerlink" href="#simple-function" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Lists are ordered collections. We create lists with square brackets, []</span>
-<span class="n">physicists</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Curie&quot;</span><span class="p">,</span><span class="s2">&quot;Gell Man&quot;</span><span class="p">,</span><span class="s2">&quot;Feynman&quot;</span><span class="p">,</span><span class="s2">&quot;Born&quot;</span><span class="p">,</span><span class="s2">&quot;Einstein&quot;</span><span class="p">]</span>
-<span class="n">mathematicians</span> <span class="o">=</span><span class="p">[]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">greeting</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># list are indexed, just like strings</span>
-<span class="n">physicists</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">greeting</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Gell Man&#39;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hello
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="function-with-one-argument-input">
+<h3>Function with one argument (input)<a class="headerlink" href="#function-with-one-argument-input" title="Permalink to this headline">¶</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">greeting</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># we can add to lists with append</span>
-<span class="n">mathematicians</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Gauss&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">mathematicians</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">greeting</span><span class="p">(</span><span class="s2">&quot;Alfred&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hello Alfred
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="function-with-one-input-and-one-output">
+<h3>Function with one input and one output<a class="headerlink" href="#function-with-one-input-and-one-output" title="Permalink to this headline">¶</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">name_lengths</span><span class="p">(</span><span class="n">names</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;input is a list of names. output is length of each name in names&quot;&quot;&quot;</span>
+    <span class="n">lengths</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
+        <span class="n">lengths</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">name</span><span class="p">))</span>
+    <span class="k">return</span><span class="p">(</span><span class="n">lengths</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># we can replace an element of the list via the index</span>
-<span class="n">physicists</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Schwinger&quot;</span>
-<span class="n">physicists</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">physicists</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Curie&quot;</span><span class="p">,</span><span class="s2">&quot;Heisenberg&quot;</span><span class="p">,</span><span class="s2">&quot;Feynman&quot;</span><span class="p">,</span><span class="s2">&quot;Einstein&quot;</span><span class="p">,</span><span class="s2">&quot;Pauli&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">name_lengths</span><span class="p">(</span><span class="n">physicists</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Curie&#39;, &#39;Gell Man&#39;, &#39;Schwinger&#39;, &#39;Born&#39;, &#39;Einstein&#39;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[5, 10, 7, 8, 5]
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># we can add multiple values to a list with extend</span>
-<span class="n">mathematicians</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s1">&#39;Noether&#39;</span><span class="p">,</span><span class="s1">&#39;Fermat&#39;</span><span class="p">,</span><span class="s1">&#39;Tao&#39;</span><span class="p">])</span>
-<span class="n">mathematicians</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># the output can be assigned to a variable</span>
+<span class="n">my_lengths</span> <span class="o">=</span> <span class="n">name_lengths</span><span class="p">(</span><span class="n">physicists</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">my_lengths</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;, &#39;Noether&#39;, &#39;Fermat&#39;, &#39;Tao&#39;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[5, 10, 7, 8, 5]
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># the same item can appear multiple times in a list</span>
-<span class="n">mathematicians</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Noether&#39;</span><span class="p">)</span>
-<span class="n">mathematicians</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;, &#39;Noether&#39;, &#39;Fermat&#39;, &#39;Tao&#39;, &#39;Noether&#39;]
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># you can have heterogeneous datatypes in lists</span>
-<span class="n">mathematicians</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span><span class="kc">True</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;Jabberwocky&#39;</span><span class="p">,</span><span class="s1">&#39;Nonsense&#39;</span><span class="p">]])</span>
-<span class="n">mathematicians</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;,
- &#39;Noether&#39;,
- &#39;Fermat&#39;,
- &#39;Tao&#39;,
- &#39;Noether&#39;,
- 5,
- True,
- [&#39;Jabberwocky&#39;, &#39;Nonsense&#39;]]
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># the last element in the list is another list</span>
-<span class="n">mathematicians</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Jabberwocky&#39;, &#39;Nonsense&#39;]
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mathematicians</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;,
- &#39;Noether&#39;,
- &#39;Fermat&#39;,
- &#39;Tao&#39;,
- &#39;Noether&#39;,
- 5,
- True,
- [&#39;Jabberwocky&#39;, &#39;Nonsense&#39;]]
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># what is happening here?</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># function which returns the longest and shortest names</span>
 
-<span class="n">mathematicians</span><span class="p">[</span><span class="mi">7</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
-<span class="c1"># mathematicians[7]</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Jabberwocky&#39;
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">del</span> <span class="n">mathematicians</span><span class="p">[</span><span class="mi">5</span><span class="p">:</span><span class="mi">8</span><span class="p">]</span>
-<span class="n">mathematicians</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Gauss&#39;, &#39;Noether&#39;, &#39;Fermat&#39;, &#39;Tao&#39;, &#39;Noether&#39;]
+<span class="k">def</span> <span class="nf">name_lengths</span><span class="p">(</span><span class="n">names</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;input is a list of names. output is the longest name&quot;&quot;&quot;</span>
+    <span class="n">lengths</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
+        <span class="n">lengths</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">name</span><span class="p">))</span>
+    <span class="n">max_name</span> <span class="o">=</span> <span class="n">names</span><span class="p">[</span><span class="n">lengths</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">lengths</span><span class="p">))]</span>
+    <span class="n">min_name</span> <span class="o">=</span> <span class="n">names</span><span class="p">[</span><span class="n">lengths</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">lengths</span><span class="p">))]</span>
+    <span class="k">return</span> <span class="n">lengths</span><span class="p">,</span> <span class="n">max_name</span><span class="p">,</span> <span class="n">min_name</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mathematicians</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s1">&#39;Ramanujan&#39;</span><span class="p">,</span><span class="s1">&#39;Lipshutz&#39;</span><span class="p">])</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">name_lengths</span><span class="p">(</span><span class="n">physicists</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>([5, 10, 7, 8, 5], &#39;Heisenberg&#39;, &#39;Curie&#39;)
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># slicing with lists</span>
-<span class="n">physicists</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="n">name_lengths</span><span class="p">(</span><span class="n">physicists</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">result</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Schwinger&#39;, &#39;Born&#39;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>([5, 10, 7, 8, 5], &#39;Heisenberg&#39;, &#39;Curie&#39;)
 </pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>tuple
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">length_list</span><span class="p">,</span> <span class="n">longest_name</span><span class="p">,</span> <span class="n">shortest_name</span> <span class="o">=</span> <span class="n">name_lengths</span><span class="p">(</span><span class="n">physicists</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">length_list</span><span class="p">,</span> <span class="n">longest_name</span><span class="p">,</span> <span class="n">shortest_name</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[5, 10, 7, 8, 5] Heisenberg Curie
+</pre></div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -487,19 +562,12 @@
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="strings.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="collections.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">String</p>
+            <p class="prev-next-title">Collections</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="collections.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Collections</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             
