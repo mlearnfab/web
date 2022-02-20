@@ -62,7 +62,7 @@ Members receive access to additional instructional resources, invitation to smal
 
 **Q.** *How is this different from other online courses?*
 
-**A. Learning science has established that the optimal way to learn, especially complex topics, is "active learning" in a supportive community of fellow learners. As an alumnus, you will also be developing a professional network of highly talented individuals around the globe. 
+**A.** Learning science has established that the optimal way to learn, especially complex topics, is "active learning" in a supportive community of fellow learners. As an alumnus, you will also be developing a professional network of highly talented individuals around the globe. 
 
 ---
 
