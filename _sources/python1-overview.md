@@ -6,7 +6,7 @@ This page describes the curriculum for Python Bootcamp for Machine Learning, Lev
 
 ## Main Topics
 
-In Python we will cover five topics.
+In Python I we will cover five topics.
 
 - *Simple Objects*
 - *Collections*
