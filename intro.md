@@ -1,15 +1,14 @@
-# Welcome to @mlearn
+# Welcome
 
-Welcome to Machine Learning for Absolute Beginners. 
+Welcome to Machine Learning for Absolute Beginners (@mlearnfab). 
 
-:::{note}
-Here is a note!
-:::
 
-And here is a code block:
 
-```
-e = mc^2
-```
 
-Check out the content pages bundled with this sample book to see more.
+
+* You can register for events at the [Meetup Web Page](https://www.meetup.com/mlearnfab/).
+
+* Please read the [FAQ](faq) on our activities and how to become a member. You can also come to one of our 30-minute orientation sessions, listed in Meetup.
+
+* Send us an email with any questions or issues: mlearnfab@gmail.com
+

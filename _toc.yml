@@ -3,6 +3,15 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
+parts:
+    - caption: FAQ
+      chapters:
+      - file: faq
+    - caption: Learning Paths
+      chapters:
+      - file: learningpaths
+    - caption: Python
+      chapters:
+      - file: python1-overview
+    
+        
