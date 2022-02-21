@@ -30,13 +30,13 @@ Members receive access to additional instructional resources, invitation to smal
 
 **Q.** *What learning paths are available now?*
 
-**A.** We are enrolling members in Python Bootcamp for Maching Learning, Level I. The Python I module provides basic proficiency in Python to move forward with other modules. Upon enrollment, you will be placed in a cohort of 15 learners. You are encouraged, though not required, to form a study group of 3-5 students. 
+**A.** We are enrolling members in Python Bootcamp for Maching Learning, Level I. The [Python I module](learningpath) provides basic proficiency in Python to move forward with other modules. Upon enrollment, you will be placed in a cohort of 15 learners. You are encouraged, though not required, to form a study group of 3-5 students. 
 
 ---
 
 **Q.** *What is the time commitment?*
 
-**A.** Each module is designed so that the curriculum can be completed on average in 25 hours. Someone who spends 3-5 hours per week can expect to complete a single module, therefore, in approximately 5 weeks.
+**A.** Each module is designed so that the curriculum can be completed on average in 25 hours. Someone who spends 3-5 hours per week can expect to complete a single module in approximately 5 weeks.
 
 ---
 

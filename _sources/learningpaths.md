@@ -1,19 +1,30 @@
-
+(learningpath)=
 # Overview
 
 The @mlearnfab curriculum consists of three learning sequences: foundations, artificial intelligence, and innovation managment. 
 
-The most typical learning path to get started will be: 
 
-- Python I
-- Data Science I
-- Machine Learning I
+The first learning path that will be offered is *Machine Learning Basics*. It will consist of five modules:
 
-Mathematics I is recommended for those who need a refresher in college algebra. 
+```{image} /images/curriculum/mlbasics.png
+:width: 600px
+:align: center
+```
+
+Python I is available now. The time lines for the other four modules are:
+
+- **Data Science I**. mid-March 2022
+- **Machine Learning I**. April 1, 2022
+- **Data Science II**. mid-April 2022
+- **Machine Learning II**. May 1, 2022
+
+We will offer **Mathematics I**, beginning in April, 2022, for those who need a refresher in essential topics in college algebra.
+
+The curriculum is being designed in modular fashion. 
 
 
 ## Foundations
-The Foundations sequence consists of three tracks: python, mathematics, and data science. Each track consists of five modules. We are defining the curriculum for each module but roughly progress across the modules will be from basic to intermediate and then to advanced.
+The Foundations sequence consists of three tracks: python, mathematics, and data science. Each track consists of five modules, progressing from basic to intermediate, and intermediate to advanced.
 
 
 ```{image} /images/curriculum/foundations.png
