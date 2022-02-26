@@ -1,4 +1,4 @@
-(learningpath)=
+(learningpaths)=
 # Overview
 
 The @mlearnfab curriculum consists of three learning sequences: foundations, artificial intelligence, and innovation managment. 
@@ -6,7 +6,7 @@ The @mlearnfab curriculum consists of three learning sequences: foundations, art
 
 The first learning path that will be offered is *Machine Learning Basics*. It will consist of five modules:
 
-```{image} /images/curriculum/mlbasics.png
+```{image} /images/dscience1/dsworkflow.png
 :width: 600px
 :align: center
 ```

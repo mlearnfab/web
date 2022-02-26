@@ -13,9 +13,9 @@
 
 **Q.** *How does the community work?*
 
-**A.** The community supports informal and formal learning paths. In the informal learning path, you are a "guest" and welcome to attend all "open" sessions and events. In the formal learning path, you become a "member" of the community by enrolling in one or more formal courses of study. 
+**A.** The community supports informal and formal learning paths. In the informal learning path, you are a "guest" and welcome to attend all "open" sessions and events. In the formal learning path, you become a "member" of the community by enrolling in a formal course of study. 
 
-Members receive access to additional instructional resources, invitation to small group recitations, and the ability to enroll in other learning modules as they become available.
+Members receive access to additional instructional resources, invitation to small group recitations, and the ability to access other learning modules as they become available.
 
  
 ---
@@ -23,33 +23,46 @@ Members receive access to additional instructional resources, invitation to smal
 
 **Q.** *How much does it cost to join?*
 
-**A.** There is no cost in being a guest or a member. The fee structure might change in 2023. Because it costs money to support our activities, you must remain active in a learning path in order to retain member status.
+**A.** There is no cost in being a guest or a member. The fee structure might change in 2023. 
 
 ---
  
 
 **Q.** *What learning paths are available now?*
 
-**A.** We are enrolling members in Python Bootcamp for Maching Learning, Level I. The [Python I module](learningpath) provides basic proficiency in Python to move forward with other modules. Upon enrollment, you will be placed in a cohort of 15 learners. You are encouraged, though not required, to form a study group of 3-5 students. 
+**A.** Machine Learning Basics begins on Feb. 28, 2022. New members can join at any time.
+
+- Python, Level I
+- Data Science, Level I
+- Machine Learning, Level I 
+
+The other two modules (Data Science, Level II and Machine Learning, Level II) will be available starting on May 1st, 2022. The entire sequence of learning paths is described in the [Learning Paths Overview](learningpaths) document.
+
+
+Python for Maching Learning, Level I. [Python, Level I](pythonone) provides basic proficiency in Python. [Data Science, Level I](datascienceone) provides basic proficiency in data science using the *pandas*, *matplotlib*, and *seaborn* libraries. [Machine Learning, Level I] provides a basic introduction to linear regression and classificaiton. The module uses the *statsmodels* and *scikit-lrn* libraries.
 
 ---
 
 **Q.** *What is the time commitment?*
 
-**A.** Each module is designed so that the curriculum can be completed on average in 25 hours. Someone who spends 3-5 hours per week can expect to complete a single module in approximately 5 weeks.
+**A.** Each module is designed so that the curriculum can be completed on average in 25 hours. Someone who spends 3-5 hours per week can expect to complete a single module in approximately 5 weeks. But you can go at your own pace and access the materials just-in-time as you need it.
 
 ---
 
 **Q.** *Do I need to complete each module in a specific amount of time?*
 
-**A.** No. However, you must show some activity each week, even if it is minimal. Otherwise, you will lose your status in the cohort and will need to renroll.
+**A.** No. However, you must show some activity each week, even if it is minimal. Otherwise, you will might lose your status in the cohort and will need to renroll.
 
 ---
+
+**Q.** *Do I need to enroll in each of the modules separately.*
+
+**A.** No. Enrollment in Machine Learning Basics gives you access to all three modules and other modules as they become available. 
 
 
 **Q.** *Will there be tests?*
 
-**A.** No. But you will have many opportunities to practice. You will also receive numerous feedback in the form of "formative assessments" so that we can evaluate your progress.
+**A.** No. But you will have many opportunities to practice with exercises, assignments, and quizzes. There are no formal grades. Your score on the "formative assessments" are meant to help you evaluate your progress.
 
 ---
 
@@ -60,17 +73,25 @@ Members receive access to additional instructional resources, invitation to smal
 ---
 
 
+**Q.** *Are the sessions recorded?*
+
+**A.** Member sessions are recorded. Members will also be able access a catalog of learning videos as they get developed.
+
+---
+
+
 **Q.** *How is this different from other online courses?*
 
-**A.** Learning science has established that the optimal way to learn, especially complex topics, is "active learning" in a supportive community of fellow learners. As an alumnus, you will also be developing a professional network of highly talented individuals around the globe. 
+**A.** Learning science has established that the optimal way to learn, especially complex topics, is "active learning" and "collaborative learning" in a supportive community of fellow learners. The curriculum is being designed so that you are learning together with others. As an alumnus, you will also be developing a professional network of highly talented individuals around the globe. 
 
 ---
 
 **Q.** *How do I enroll?*
 
-**A.** To enroll in Python I, go to the mlearnfab [moodle web site](https://mlfab.moodlecloud.com). Click on "Create new account" at the bottom. After you have created the new account, email mlearnfab@gmail.com. You will then receive instructions (within 24 hours) on how to get started.
+**A.** To enroll in the formal path, go to the mlearnfab [moodle web site](https://mlfab.moodlecloud.com). Click on "Create new account" at the bottom. After you have created the new account, email mlearnfab@gmail.com. You will then receive instructions (within 24 hours) on how to get started.
 
 ---
+
 
 **Q.** *Do I need to share my personal information?*
 
