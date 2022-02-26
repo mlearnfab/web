@@ -1,11 +1,11 @@
 (datascienceone)=
-# Data Science, Level I 
+# <font color="blue">Data Science, Level I</font>
 
 This page describes the curriculum for Data Science for Machine Learning, Level I.
 
 
 
-## Main Topics
+## <font color="maroon">Main Topics</font>
 
 In Data Science I we will cover two principal topics of a Data Science Project.
 
@@ -20,7 +20,7 @@ You will learn to use the pandas, numpy, matplotlib, and seaborn libraries.
 ```
 
 
-## Data Transformation
+## <font color="maroon">Data Transformation</font>
 
 The workhorse data structure in data science is a dataframe. Using the pandas data science library, you will learn how to perform the most common operations on dataframes:
 
@@ -31,6 +31,8 @@ The workhorse data structure in data science is a dataframe. Using the pandas da
 - *summarize*: produce various summary views of the data frame
 
 
-## Data Visualization
+## <font color="maroon">Data Visualization</font>
+
+In data visualization we will learn to use the matplotlib, pandas, and seaborn libraries to plot key visualizations for data exploration, including histogram, kde, barplot, and boxplots. 
 
 

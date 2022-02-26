@@ -1,29 +1,24 @@
 (learningpaths)=
-# Overview
+# <font color="blue">Overview</font>
 
 The @mlearnfab curriculum consists of three learning sequences: foundations, artificial intelligence, and innovation managment. 
 
 
-The first learning path that will be offered is *Machine Learning Basics*. It will consist of five modules:
+The first learning path that will be offered is **Machine Learning Basics**. It consists of five modules:
 
-```{image} /images/dscience1/dsworkflow.png
+```{image} /images/curriculum/mlbasics.png
 :width: 600px
 :align: center
 ```
 
-Python I is available now. The time lines for the other four modules are:
+Python I, Data Science I, and Machine Learning I is available now. The other two modules will be available on May 1st, 2022.
 
-- **Data Science I**. mid-March 2022
-- **Machine Learning I**. April 1, 2022
-- **Data Science II**. mid-April 2022
-- **Machine Learning II**. May 1, 2022
-
-We will offer **Mathematics I**, beginning in April, 2022, for those who need a refresher in essential topics in college algebra.
+We will offer **Mathematics I**, beginning in May 1st, 2022, for those who need a refresher in essential topics in college algebra.
 
 The curriculum is being designed in modular fashion. 
 
 
-## Foundations
+## <font color="maroon">Foundations</font>
 The Foundations sequence consists of three tracks: python, mathematics, and data science. Each track consists of five modules, progressing from basic to intermediate, and intermediate to advanced.
 
 
@@ -32,7 +27,7 @@ The Foundations sequence consists of three tracks: python, mathematics, and data
 :align: center
 ```
 
-## Artificial Intelligence
+## <font color="maroon">Artificial Intelligence</font>
 
 The Artificial Intelligences sequence consists of three tracks: machine learning, natural language processing, and deep learning. Machine learning and deep learning have ten modules. NLP has five modules.
 
@@ -42,7 +37,7 @@ The Artificial Intelligences sequence consists of three tracks: machine learning
 :align: center
 ```
 
-## AI Innovation Management
+## <font color="maroon">AI Innovation Management</font>
 
 The AI Innovation Management (AIM) sequence is meant for business leaders. It consists of two tracks: AI Management and AI Fairness. AI Management consists of ten modules. AI Fairness consists of five modules.
 

@@ -1,7 +1,6 @@
-# Welcome
+# <font color="blue">Welcome</font>
 
-Welcome to Machine Learning for Absolute Beginners (@mlearnfab). 
-
+Welcome to Machine Learning for Absolute Beginners. We are a learning community and our mission is to help members develop practical skills in Artificial Intelligence and Machine Learning. 
 
 
 
@@ -13,10 +12,16 @@ Welcome to Machine Learning for Absolute Beginners (@mlearnfab).
 * Send us an email with any questions or issues: mlearnfab@gmail.com
 
 
-## Events
+## <font color="maroon">Upcoming Events</font>
 
 
 ### Open
 
+
+- Tuesday, March 1, 2022: [A Non-Technical Introduction to Deep Learning](https://www.meetup.com/mlearnfab/events/283608885/)
+
 ### Members
 
+- Tuesday, March 8, 2022: [Python Functions (In-depth)](https://www.meetup.com/mlearnfab/events/284206972/)
+
+- Tuesday, March 15, 2022: [Python Dictionaries (In-depth)](https://www.meetup.com/mlearnfab/events/284178221/)

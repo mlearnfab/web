@@ -1,21 +1,20 @@
 (faq)=
-# Frequently Asked Questions
-
- 
-
+# <font color="blue">Frequently Asked Questions</font>
 
 **Q.** *What is Machine Learning for Absolute Beginners Meetup?*
 
-**A.** Machine Learning for Absolute Beginners is a learning community. Our goal is to help members develop practical skills in Artificial Intelligence and Machine Learning. 
+**A.** Machine Learning for Absolute Beginners is a learning community. 
+
+> <font color="maroon">Our mission is to help members develop practical skills in Artificial Intelligence and Machine Learning.</font>
 
  
 ---
 
 **Q.** *How does the community work?*
 
-**A.** The community supports informal and formal learning paths. In the informal learning path, you are a "guest" and welcome to attend all "open" sessions and events. In the formal learning path, you become a "member" of the community by enrolling in a formal course of study. 
+**A.** The community supports informal and formal learning paths. In the informal learning path, you are a "guest" of the @mlearnfab community. You are welcome to attend all "open" sessions and events. In the formal learning path, you become a "member" of the community by enrolling in a formal course of study. 
 
-Members receive access to additional instructional resources, invitation to small group recitations, and the ability to access other learning modules as they become available.
+Members of @mlearnfab receive access to additional instructional resources, invitation to small group recitations, and the ability to access learning modules as they become available.
 
  
 ---
@@ -30,16 +29,16 @@ Members receive access to additional instructional resources, invitation to smal
 
 **Q.** *What learning paths are available now?*
 
-**A.** Machine Learning Basics begins on Feb. 28, 2022. New members can join at any time.
+**A.** <font color="maroon">**Machine Learning Basics**</font> begins on Feb. 28, 2022. New members can join at any time. Machine Learning Basics consists of five learning modules. The first three are available now: 
 
-- Python, Level I
-- Data Science, Level I
-- Machine Learning, Level I 
+- [Python, Level I](pythonone)
+- [Data Science, Level I](datascienceone)
+- [Machine Learning, Level I](mlearnone)
 
-The other two modules (Data Science, Level II and Machine Learning, Level II) will be available starting on May 1st, 2022. The entire sequence of learning paths is described in the [Learning Paths Overview](learningpaths) document.
+The other two modules (Data Science, Level II; Machine Learning, Level II) will be available starting on May 1st, 2022. The entire sequence of learning paths is described in the [Learning Paths Overview](learningpaths) document.
 
 
-Python for Maching Learning, Level I. [Python, Level I](pythonone) provides basic proficiency in Python. [Data Science, Level I](datascienceone) provides basic proficiency in data science using the *pandas*, *matplotlib*, and *seaborn* libraries. [Machine Learning, Level I] provides a basic introduction to linear regression and classificaiton. The module uses the *statsmodels* and *scikit-lrn* libraries.
+[Python, Level I](pythonone) provides basic proficiency in Python. [Data Science, Level I](datascienceone) provides basic proficiency in data science using the *pandas*, *matplotlib*, and *seaborn* libraries. [Machine Learning, Level I](mlearnone) provides a basic introduction to regression and classification, the two primary forms of supervised machine learning. The module also serves as an introduction to the [statsmodels](https://www.statsmodels.org/stable/index.html) and [scikit-learn](https://scikit-learn.org/stable/) libraries.
 
 ---
 
