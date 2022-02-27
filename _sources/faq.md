@@ -22,7 +22,7 @@ Members of @mlearnfab receive access to additional instructional resources, invi
 
 **Q.** *How much does it cost to join as a member of *@mlearnfab*?*
 
-**A.** There is no cost in being a guest or a member. The fee structure might change in 2023. To remain as a membe you must show activity each week, even if the activity is minimal. Otherwise, you will lose your status as member and place in the cohort.
+**A.** There is no cost in being a guest or a member. The fee structure might change in 2023. To remain as a membe you must show activity each week, even if the activity is minimal. Otherwise, you will lose your status as member and place in the cohort. Think of it as getting a free membership pass to a fitness club. If you don't show up regularly, you will lose your pass.
 
 ---
  
