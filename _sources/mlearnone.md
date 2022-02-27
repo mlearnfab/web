@@ -5,7 +5,7 @@ This page describes the curriculum for Machine Learning, Level I. .
 
 
 
-## <font color="maroon">Main Topics</font>> 
+## <font color="maroon">Main Topics</font>
 
 In Machine Learning, Level I we will cover four principal topics:
 
