@@ -12,12 +12,14 @@ In Data Science I we will cover two principal topics of a Data Science Project.
 - *Data Transformation*
 - *Data Visualization*
 
-You will learn to use the pandas, numpy, matplotlib, and seaborn libraries.
+You will learn to use the pandas, numpy, matplotlib, and seaborn libraries to perform data transformation and data visualization.
 
 ```{image} /images/dscience1/dsworkflow.png
 :width: 600px
 :align: center
 ```
+
+**Credit:** The diagram is adapted from [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham, Garrett Grolemund.
 
 
 ## <font color="maroon">Data Transformation</font>
