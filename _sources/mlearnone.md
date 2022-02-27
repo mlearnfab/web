@@ -1,5 +1,5 @@
 (mlearnone)=
-# <font color="blue">Machine Learning, Level I</font> 
+# <font color="maroon">Machine Learning, Level I</font> 
 
 This page describes the curriculum for Machine Learning, Level I. 
 

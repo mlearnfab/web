@@ -1,28 +1,28 @@
 (faq)=
-# <font color="blue">Frequently Asked Questions</font>
+# <font color="maroon">Frequently Asked Questions</font>
 
-**Q.** *What is Machine Learning for Absolute Beginners Meetup?*
+**Q.** *What is Machine Learning for Absolute Beginners (<font color="green">@mlearnfab</font>) Meetup?*
 
 **A.** Machine Learning for Absolute Beginners is a learning community. 
 
-> <font color="maroon">Our mission is to help members develop practical skills in Artificial Intelligence and Machine Learning.</font>
+> Our mission is to help members develop practical skills in Artificial Intelligence and Machine Learning.
 
  
 ---
 
 **Q.** *How does the community work?*
 
-**A.** The community supports informal and formal learning paths. In the informal learning path, you are a "guest" of the @mlearnfab community. As guest, you are welcome to attend all "open" sessions and events. In the formal learning path, you become a "member" of the community by enrolling in a formal course of study. 
+**A.** The community supports informal and formal learning paths. In the informal learning path, you are a "guest" of the @mlearnfab community. As guest, you are welcome to attend all "open" sessions and events. In the formal learning path, you become a "member" by enrolling in a formal course of study. 
 
-Members of @mlearnfab receive access to additional instructional resources, invitation to small group recitations, and the ability to access learning modules as they become available.
+Members receive access to instructional resources, invitation to small group recitations, and the ability to access new learning modules as they become available.
 
  
 ---
 
 
-**Q.** *How much does it cost to join as a member of *@mlearnfab*?*
+**Q.** *How much does it cost to join as a member of <font color="green">@mlearnfab</font>?*
 
-**A.** There is no cost in being a guest or a member. The fee structure might change in 2023. To remain as a membe you must show activity each week, even if the activity is minimal. Otherwise, you will lose your status as member and place in the cohort. Think of it as getting a free membership pass to a fitness club. If you don't show up regularly, you will lose your pass.
+**A.** There is no cost in being a guest or a member. The fee structure is likely to change in 2023. To retain your membership status you must be an active learner, even if the activity is minimal. Think of it as getting a free membership pass to a fitness club. If you don't stay active, your membership pass will be given to someone else.
 
 ---
  
@@ -91,6 +91,12 @@ The other two modules (Data Science, Level II; Machine Learning, Level II) will 
 
 ---
 
+
+**Q.** *How do I know I am enrolled?*
+
+**A.** In the basecamp area in Moodle, you will be placed into a cohort of 10 people. Each cohort is named after a mountain in the Himalayan range (e.g. Annapurna)
+
+---
 
 **Q.** *Do I need to share my personal information?*
 

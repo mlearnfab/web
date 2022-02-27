@@ -1,5 +1,5 @@
 (datascienceone)=
-# <font color="blue">Data Science, Level I</font>
+# <font color="maroon">Data Science, Level I</font>
 
 This page describes the curriculum for Data Science for Machine Learning, Level I.
 

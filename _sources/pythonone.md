@@ -1,5 +1,5 @@
 (pythonone)=
-# <font color="blue">Python, Level I</font> 
+# <font color="maroon">Python, Level I</font> 
 
 This page describes the curriculum for Python for Machine Learning, Level I. . 
 
