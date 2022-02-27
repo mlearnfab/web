@@ -12,7 +12,7 @@
 
 **Q.** *How does the community work?*
 
-**A.** The community supports informal and formal learning paths. In the informal learning path, you are a "guest" of the @mlearnfab community. You are welcome to attend all "open" sessions and events. In the formal learning path, you become a "member" of the community by enrolling in a formal course of study. 
+**A.** The community supports informal and formal learning paths. In the informal learning path, you are a "guest" of the @mlearnfab community. As guest, you are welcome to attend all "open" sessions and events. In the formal learning path, you become a "member" of the community by enrolling in a formal course of study. 
 
 Members of @mlearnfab receive access to additional instructional resources, invitation to small group recitations, and the ability to access learning modules as they become available.
 
@@ -20,9 +20,9 @@ Members of @mlearnfab receive access to additional instructional resources, invi
 ---
 
 
-**Q.** *How much does it cost to join?*
+**Q.** *How much does it cost to join as a member of *@mlearnfab*?*
 
-**A.** There is no cost in being a guest or a member. The fee structure might change in 2023. 
+**A.** There is no cost in being a guest or a member. The fee structure might change in 2023. To remain as a membe you must show activity each week, even if the activity is minimal. Otherwise, you will lose your status as member and place in the cohort.
 
 ---
  
@@ -50,13 +50,13 @@ The other two modules (Data Science, Level II; Machine Learning, Level II) will 
 
 **Q.** *Do I need to complete each module in a specific amount of time?*
 
-**A.** No. However, you must show some activity each week, even if it is minimal. Otherwise, you will might lose your status in the cohort and will need to renroll.
+**A.** No. You can go at your own pace. As mentioned above, you must show minimal activity each week.
 
 ---
 
 **Q.** *Do I need to enroll in each of the modules separately.*
 
-**A.** No. Enrollment in Machine Learning Basics gives you access to all three modules and other modules as they become available. 
+**A.** No. Enrollment in **Machine Learning Basics** learning path will give you access to all three modules and other modules as they become available. 
 
 
 **Q.** *Will there be tests?*
