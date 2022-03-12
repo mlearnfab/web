@@ -14,14 +14,24 @@ Welcome to Machine Learning for Absolute Beginners. We are a learning community.
 
 ## <font color="maroon">Upcoming Events</font>
 
+- Tuesday, March 15, 2022: [Python Dictionaries (In-depth)](https://www.meetup.com/mlearnfab/events/284178221/)
+
+- Wednesday, March 16, 2022: [Build a Machine Learning MOdel in 15 Minutes](https://www.meetup.com/mlearnfab/events/284571447)
+
+- Thursday, March 17, 2022: [Introduction to Data Science with Python](https://www.meetup.com/mlearnfab/events/284287074/)
+
+- Tuesday, March 22, 2022: [Programming for Absolute Beginners, Session I](https://www.meetup.com/mlearnfab/events/284301204/)
+
+- Tuesday, March 29, 2022: [Introduction to Machine Learning with scikit-learning](https://www.meetup.com/mlearnfab/events/284287474/)
+
+- Saturday, April 9, 2022: [Machine Learning Intensive Worshop (Full Day) ](https://www.meetup.com/mlearnfab/events/284354357)
+
+
 
 ## <font color="maroon">Previous Events</font>
 
 
 - Tuesday, March 1, 2022: [A Non-Technical Introduction to Deep Learning](https://www.meetup.com/mlearnfab/events/283608885/)
 
-#### <font color="maroon">Members</font>
-
 - Tuesday, March 8, 2022: [Python Functions (In-depth)](https://www.meetup.com/mlearnfab/events/284206972/)
 
-- Tuesday, March 15, 2022: [Python Dictionaries (In-depth)](https://www.meetup.com/mlearnfab/events/284178221/)
