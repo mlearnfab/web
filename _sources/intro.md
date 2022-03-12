@@ -15,7 +15,7 @@ Welcome to Machine Learning for Absolute Beginners. We are a learning community.
 ## <font color="maroon">Upcoming Events</font>
 
 
-#### <font color="maroon">Open</font>
+## <font color="maroon">Previous Events</font>
 
 
 - Tuesday, March 1, 2022: [A Non-Technical Introduction to Deep Learning](https://www.meetup.com/mlearnfab/events/283608885/)
