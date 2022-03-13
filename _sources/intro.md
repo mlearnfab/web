@@ -35,3 +35,9 @@ Welcome to Machine Learning for Absolute Beginners. We are a learning community.
 
 - Tuesday, March 8, 2022: [Python Functions (In-depth)](https://www.meetup.com/mlearnfab/events/284206972/)
 
+- Tuesday, March 1, 2022: [A Non-Technical Introduction to Deep Learning)](https://www.meetup.com/mlearnfab/events/283608885/)
+
+- Thursday, February 24, 2022: [Mathematics Bootcamp for Machine Learning)](https://www.meetup.com/mlearnfab/events/283834589/)
+
+
+

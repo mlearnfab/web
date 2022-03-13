@@ -12,17 +12,14 @@
 
 **Q.** *How does the community work?*
 
-**A.** The community supports informal and formal learning paths. In the informal learning path, you are a "guest" of the @mlearnfab community. As guest, you are welcome to attend all "open" sessions and events. In the formal learning path, you become a "member" by enrolling in a formal course of study. 
-
-Members receive access to instructional resources, invitation to small group recitations, and the ability to access new learning modules as they become available.
-
+**A.** The community supports informal and formal learning paths. In the informal learning path, you can attend any of the meetup sessions. In the formal learning path, you will receive access to additional instructional resources. The additional resources include access to video recordings of the meetups, a practice area for working on python, data science, and machine learning assignments. You will also be assigned to a cohort. You will have the option of working with others on project assignments. 
  
 ---
 
 
 **Q.** *How much does it cost to join as a member of <font color="green">@mlearnfab</font>?*
 
-**A.** There is no cost in being a guest or a member. The fee structure is likely to change in 2023. To retain your membership status you must be an active learner, even if the activity is minimal. Think of it as getting a free membership pass to a fitness club. If you don't stay active, your membership pass will be given to someone else.
+**A.** There is no cost to attending the meetups or signing up for the formal learning path. The fee structure is likely to change in 2023. 
 
 ---
  
@@ -50,7 +47,7 @@ The other two modules (Data Science, Level II; Machine Learning, Level II) will 
 
 **Q.** *Do I need to complete each module in a specific amount of time?*
 
-**A.** No. You can go at your own pace. As mentioned above, you must show minimal activity each week.
+**A.** No. You can go at your own pace. However, you must show some activity each week, even if it is minimal.
 
 ---
 
@@ -74,7 +71,7 @@ The other two modules (Data Science, Level II; Machine Learning, Level II) will 
 
 **Q.** *Are the sessions recorded?*
 
-**A.** Member sessions are recorded. Members will also be able access a catalog of learning videos as they get developed.
+**A.** Beginning March 14th, 2022 all sessions will be recorded. However, the sessions will be available only to those who have signed up for the formal learning path.
 
 ---
 
