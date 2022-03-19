@@ -4,14 +4,14 @@
 The @mlearnfab curriculum consists of learning paths. Each learning path is defined as a set of modules. 
 
 
-The first learning path this is currently offered is **Machine Learning Basics**. It consists of five modules:
+The first learning path this is currently offered is **Machine Learning Basics**. It consists of six modules:
 
 ```{image} /images/curriculum/mlbasics.png
 :width: 600px
 :align: center
 ```
 
-*Python I, Data Science I*, and *Machine Learning I* is available now. The remaining two modules will be available on May 1st, 2022.
+*Python I, Data Science I*, and *Machine Learning I* is available now. The remaining three modules will be available on May 1st, 2022.
 
  New modules are being developed in three categories: *Foundations*, *Artificial Intelligence*, and *AI Innovation Management*.
 
