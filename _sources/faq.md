@@ -1,41 +1,9 @@
 (faq)=
 # <font color="maroon">Frequently Asked Questions</font>
 
-**Q.** *What is Machine Learning for Absolute Beginners (<font color="green">@mlearnfab</font>) Meetup?*
+**Q.** *What is Machine Learning for Absolute Beginners?*
 
-**A.** Machine Learning for Absolute Beginners is a learning community. 
-
-> Our mission is to help members develop practical skills in Artificial Intelligence and Machine Learning.
-
- 
----
-
-**Q.** *How does the community work?*
-
-**A.** The community supports informal and formal learning paths. In the informal learning path, you can attend any of the meetup sessions. In the formal learning path, you will receive access to additional instructional resources. The additional resources include access to video recordings of the meetups, a practice area for working on python, data science, and machine learning assignments. You will also be assigned to a cohort. You will have the option of working with others on project assignments. 
- 
----
-
-
-**Q.** *How much does it cost to join as a member of <font color="green">@mlearnfab</font>?*
-
-**A.** There is no cost to attending the meetups or signing up for the formal learning path. The fee structure is likely to change in 2023. 
-
----
- 
-
-**Q.** *What learning paths are available now?*
-
-**A.** <font color="maroon">**Machine Learning Basics**</font> begins on Feb. 28, 2022. New members can join at any time. Machine Learning Basics consists of five learning modules. The first three are available now: 
-
-- [Python, Level I](pythonone)
-- [Data Science, Level I](datascienceone)
-- [Machine Learning, Level I](mlearnone)
-
-The other two modules (Data Science, Level II; Machine Learning, Level II) will be available starting on May 1st, 2022. The entire sequence of learning paths is described in the [Learning Paths Overview](learningpaths) document.
-
-
-[Python, Level I](pythonone) provides basic proficiency in Python. [Data Science, Level I](datascienceone) provides basic proficiency in data science using the *pandas*, *matplotlib*, and *seaborn* libraries. [Machine Learning, Level I](mlearnone) provides a basic introduction to regression and classification, the two primary forms of supervised machine learning. The module also serves as an introduction to the [statsmodels](https://www.statsmodels.org/stable/index.html) and [scikit-learn](https://scikit-learn.org/stable/) libraries.
+**A.** *Machine Learning for Absolute Beginners* is a free online proram designed for busy professionals who want to learn machine learning quickly and efficiently. Unlike most offerings, the course combines self-paced material with live interactive sessions. The course design is based on principles of active learning.  
 
 ---
 
@@ -47,51 +15,39 @@ The other two modules (Data Science, Level II; Machine Learning, Level II) will 
 
 **Q.** *Do I need to complete each module in a specific amount of time?*
 
-**A.** No. You can go at your own pace. However, you must show some activity each week, even if it is minimal.
+**A.** No. You can go at your own pace and repeat material as needed. However, you must show <font color="red">some activity</font> each week to retain access to the learning materials and resources.
 
----
-
-**Q.** *Do I need to enroll in each of the modules separately.*
-
-**A.** No. Enrollment in **Machine Learning Basics** learning path will give you access to all three modules and other modules as they become available. 
-
+___
 
 **Q.** *Will there be tests?*
 
-**A.** No. But you will have many opportunities to practice with exercises, assignments, and quizzes. There are no formal grades. Your score on the "formative assessments" are meant to help you evaluate your progress.
+**A.**  There are no formal grades. But you will have opportunity to practice with exercises, assignments, and programming challenges. 
 
 ---
 
 **Q.** *Will I get a certificate?*
 
-**A.** We do not issue formal certificates. However, you will receive "badges" during your journey to mark progress. 
+**A.**  At the end of course, you will receive a certificate of completion. 
 
 ---
 
 
 **Q.** *Are the sessions recorded?*
 
-**A.** Beginning March 14th, 2022 all sessions will be recorded. However, the sessions will be available only to those who have signed up for the formal learning path.
+**A.**  Each unit will be accompanied by several short videos on YouTube. The live interactive sessions will also be recorded and made available to participants.
 
 ---
 
 
 **Q.** *How is this different from other online courses?*
 
-**A.** Learning science has established that the optimal way to learn, especially complex topics, is "active learning" and "collaborative learning" in a supportive community of fellow learners. The curriculum is being designed so that you are learning together with others. As an alumnus, you will also be developing a professional network of highly talented individuals around the globe. 
+**A.**  Learning science has established that the optimal way to learn is "by doing", "not by viewing". Unlike other online courses, much of the learning will take place with practice exercises and in live interaction with instructors and peers.
 
 ---
 
 **Q.** *How do I enroll?*
 
-**A.** To enroll in the formal path, go to the mlearnfab [moodle web site](https://mlfab.moodlecloud.com). Click on "Create new account" at the bottom. After you have created the new account, email mlearnfab@gmail.com. You will then receive instructions (within 24 hours) on how to get started.
-
----
-
-
-**Q.** *How do I know I am enrolled?*
-
-**A.** In the basecamp area in Moodle, you will be placed into a cohort of 10 people. Each cohort is named after a mountain in the Himalayan range (e.g. Annapurna)
+**A.** To enroll in the program, go to the mlearnfab [moodle web site](https://mlfab.moodlecloud.com). Click on "Create new account" at the bottom. After you have created the new account, email mlearnfab@gmail.com. You will then receive instructions (within 24 hours) on how to get started.
 
 ---
 
