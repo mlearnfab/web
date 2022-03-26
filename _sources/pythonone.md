@@ -11,15 +11,21 @@ Python I is organized into 8 units.
 
 - **Unit 0:** Overview of Programming
 
+
 - **Unit 1:** Getting Started 
+
 
 - **Unit 2:** Simple Data Types and Operations
 
+
 - **Unit 3:** String Methods
+
 
 - **Unit 4:** Collections and Operations
 
+
 - **Unit 5:** Iteration
+
 
 - **Unit 6:** Branching
 

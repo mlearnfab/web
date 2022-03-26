@@ -5,14 +5,37 @@ This page describes the curriculum for Data Science for Machine Learning, Level 
 
 
 
-## <font color="maroon">Main Topics</font>
+
+
+
+## <font color="maroon">I. Units</font>
+
+Data Science I is organized into 8 units.
+
+- **Unit 0:** Overview of Data Analysis
+
+- **Unit 1:** Pandas Library Basics 
+
+- **Unit 2:** Data Visualization Basics with Matplotlib
+
+- **Unit 3:** Data Frames (in depth)
+
+- **Unit 4:** Data Visuzalization with Seaborn
+
+- **Unit 5:** Aggregation and Summary with Groupby
+
+- **Unit 6:** Data Munging
+
+- **Unit 7:** Apply and Lambda Function
+
+## <font color="maroon">II. Main Topics</font>
 
 In Data Science I we will cover two principal topics of a Data Science Project.
 
 - *Data Transformation*
 - *Data Visualization*
 
-You will learn to use the pandas, numpy, matplotlib, and seaborn libraries to perform data transformation and data visualization.
+You will learn to use the pandas, matplotlib, and seaborn libraries to perform data transformation and data visualization.
 
 ```{image} /images/dscience1/dsworkflow.png
 :width: 600px
